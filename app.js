@@ -10,7 +10,7 @@ const http = require('http');
 const dns = require('dns').promises;
 
 // Configuration
-const WS_PORT = process.env.PORT || 8080;
+const WS_PORT = process.env.PORT || 3000;
 
 // Create HTTP server
 const server = http.createServer((req, res) => {
